@@ -1,0 +1,108 @@
+body
+  margin: 0
+  font-size: 18px
+
+body #app
+  margin: 50px 0
+
+h1
+  margin: 0
+  padding: 20px 0
+  font-size: 1.8em
+  text-transform: uppercase
+
+h2
+  display: flex
+  margin-left: auto
+  font-size: 1.4em
+  text-transform: uppercase
+
+.client-form
+  display: flex
+  flex-direction: column
+  margin: 0 auto
+  width: 60vw
+  padding: 20px 0
+  background-color: #a44ae8
+  border-radius: 20px
+
+.form-content
+  margin: 0 auto
+  width: 80%
+  margin-bottom: 25px
+
+.input-field
+  display: flex
+  flex-direction: column
+  padding-bottom: 25px
+
+.input-field input
+  border-radius: 25px
+  height: 25px
+  border: none
+
+.input-field input:focus
+  outline: none
+
+.input-field select
+  border-radius: 25px
+  height: 30px
+  border: none
+
+.input-field select:focus
+  outline: none
+
+.input-field label
+  display: flex
+  margin-rigth: auto
+  margin-bottom: 5px
+
+.footnote
+  display: flex
+  margin-left: auto
+  padding: 20px 0
+  font-size: 0.8rem
+
+.checkbox-field
+  display: flex
+
+.form-action button
+  width: 70%
+  height: 40px
+  background-color: #806FE6
+  border: none
+  border-radius: 10px
+  font-size: 1.2em
+  color: #000
+  cursor: pointer
+
+.form-action button:focus
+  outline: none
+
+.form-action button:hover
+  background-color: #4038F3
+  color: #fff
+  transition: all 0.3s
+
+.adress-container
+  padding: 25px 0
+
+.input-field
+  .error
+    display: none
+  &.errorInput
+    .error
+      display: block
+
+div.error
+  color: #f00
+  margin-right: auto
+
+@media (max-width: 375px)
+  body
+    font-size: 12px
+
+@media (max-width: 325px)
+  .form-action button
+    font-size: 12px
+
